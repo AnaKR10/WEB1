@@ -1,0 +1,87 @@
+
+
+@font-face {
+    font-family: fuenteFabled;
+    src: url(Fuente/Fabled.otf);
+}
+@font-face {
+    font-family: fuenteAnA;
+    src: url(Fuente/Anastasia.ttf);
+}
+ul{
+    list-style-image: url("");
+}
+
+@font-face {
+    font-family: fuenteTitulo;
+    src: url(Fuente/kg_a_little_swag/KGALittleSwag.ttf);
+}
+ul{
+    list-style-image: url("");
+}
+
+@font-face {
+    font-family: fuenteMiel;
+    src: url(Fuente/Snowy\ Holiday.ttf);
+}
+
+.fondoImagen{
+    background-image: url(media/Gato.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 10rem;
+    padding: 30px;
+}
+
+
+body{
+    background-color: #4e2b4b;
+    font-family: sans-serif;
+    padding: 5em;
+}
+.fondoBlanco{
+    background-color: white;
+}
+.fondoVerde{
+    background-color: #96af4c;
+}
+.fondoMorado{
+    background-color: #321730;
+}
+.texto1{
+    text-align: center;
+    font-size: 68px;
+    color: #8a5689;
+    font-family: fuenteTitulo;
+}
+.texto2{
+    text-align: left;
+    font-size: 26px;
+    color: white;
+    font-family: fuenteFabled;
+    text-align: center;
+}
+.texto3{
+    text-align: center;
+    font-size: 38px;
+    color: white;
+    font-family: fuenteMiel;
+    padding-bottom: 20px;
+}
+.texto4{
+    text-align: left;
+    font-size: 26px;
+    color: white;
+    font-family: fuenteAna;
+}
+
+.imagenEstilo{
+    width: 150px;
+    text-align: center;
+}
+.bodeBlanco{
+    border: 20px solid white;
+    border-radius: 15px;
+
+}
